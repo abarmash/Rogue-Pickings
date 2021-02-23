@@ -1,0 +1,126 @@
+/***** BASE STYLES *****/
+body {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background: #ffffff;
+    padding-left: 20px;
+}
+
+/***** GRID *****/
+.full-width {
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    overflow: auto;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    overflow: auto;
+    width: 400px;
+}
+
+/***** HEADER *****/
+header {
+    line-height: 23px;
+    padding-top: 25px;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+header h1 span {
+    color: #77a466
+}
+
+nav ul li {
+    display: inline-block;
+    color: #77a466;
+    float: right;
+    font-size: 14px;
+    padding-left: 25px;
+    text-transform: uppercase;
+}
+
+/***** WELCOME *****/
+img {
+    border-top: 4px solid #77a466;
+    border-bottom: 4px solid #77a466;
+}
+
+#welcome h2 {
+    color: #77a466;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+ 
+#welcome p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+/***** BOTTOM *****/
+#bottom h3 {
+    font-size: 12px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+#bottom p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+#bottom p span {
+    color: #77a466;
+    line-height: 18px;
+}
+
+#bottom #specials {
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+    padding: 25px 25px 98px 0px; /** top, right, bottom, left **/
+    width: 373px;
+}
+
+#bottom #reviews {
+    border: 1px solid #dedbdc;
+    padding: 25px 25px 24px 25px;
+    width: 348px;
+}
+
+#bottom #contact {
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+    padding: 25px 0px 98px 25px;
+    width: 373px;
+}
+
+/***** FOOTER *****/
+footer {
+    padding-bottom: 30px 0px;
+}
+
+footer h1 {
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer h1 span {
+    color: #77a466;
+    font-family: 'Seaweed Script', cursive;
+    font-size: 16px;
+    line-height: 23px;
+    text-transform: none;
+}
